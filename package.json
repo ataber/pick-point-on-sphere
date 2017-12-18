@@ -1,0 +1,32 @@
+{
+  "name": "pick-point-on-sphere",
+  "version": "1.0.0",
+  "description": "Pick a random point on a unit sphere in 3D",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ataber/pick-point-on-sphere.git"
+  },
+  "keywords": [
+    "sphere",
+    "point",
+    "uniform",
+    "distribution"
+  ],
+  "author": "Andrew Taber <andrew.e.taber@gmail.com> (http://taber.space)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ataber/pick-point-on-sphere/issues"
+  },
+  "homepage": "https://github.com/ataber/pick-point-on-sphere#readme",
+  "dependencies": {
+    "gl-vec3": "^1.0.3"
+  },
+  "devDependencies": {
+    "regl": "^1.3.0",
+    "regl-camera": "^2.1.1"
+  }
+}
